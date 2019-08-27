@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.github.cythara.Scales">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme"
+        app:popupTheme="@style/AppTheme" />
+    <Button
+        android:id="@+id/instrument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Violin"
+        android:layout_marginTop="2.5dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:context="com.github.cythara.Scales">
+
+        <Button
+            android:id="@+id/scalesArpeggios"
+            android:layout_width="205dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:text="Scales" />
+
+        <Button
+            android:id="@+id/majorMinor"
+            android:layout_width="205dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:text="Major" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.github.cythara.Scales">
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/scales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/startButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Scale Test" />
+
+            <com.github.cythara.TunerView
+                android:id="@+id/pitch"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:theme="@style/AppTheme" />
+
+        </LinearLayout>
+</LinearLayout>

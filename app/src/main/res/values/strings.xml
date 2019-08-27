@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Cythara</string>
+
+    <string name="privacy_policy">Show privacy policy</string>
+    <string name="privacy_policy_link" translatable="false">
+        https://gstraube.github.io/privacy_policy.html
+    </string>
+
+    <string name="tuner">Tuner</string>
+    <string name="set_notation">Set notation</string>
+    <string name="choose_notation">Choose notation</string>
+    <string name="toggle_dark_mode">Toggle dark mode</string>
+    <string name="set_reference_pitch">Set reference pitch</string>
+    <string name="scales_and_arpeggios_tuner">Scales and Arpeggios Tuner</string>
+    <string name="choose_a_frequency">Choose a frequency:</string>
+    <string name="permission_required">Permission required</string>
+    <string name="microphone_permission_required">Microphone permission is required. App will close.</string>
+    <string name="information">How this works</string>
+    <string name="ok">OK</string>
+
+    <string-array name="tunings">
+        <item>Chromatic</item>
+        <item>Guitar (standard)</item>
+        <item>Guitar (Drop D)</item>
+        <item>Guitar (Drop C)</item>
+        <item>Guitar (Drop C#)</item>
+        <item>Guitar (Open G)</item>
+        <item>Bass (standard)</item>
+        <item>Ukulele (standard)</item>
+        <item>Ukulele (D tuning)</item>
+        <item>Violin (standard)</item>
+        <item>Cello (standard)</item>
+        <item>Viola (standard)</item>
+    </string-array>
+    <string-array name="majorScales">
+        <item>C Major Scale</item>
+        <item>G Major Scale</item>
+        <item>D Major Scale</item>
+        <item>A Major Scale</item>
+        <item>E Major Scale</item>
+        <item>B Major Scale</item>
+        <item>F# Major Scale</item>
+        <item>C# Major Scale</item>
+        <item>F Major Scale</item>
+        <item>Bb Major Scale</item>
+        <item>Eb Major Scale</item>
+        <item>Ab Major Scale</item>
+        <item>Db Major Scale</item>
+        <item>Gb Major Scale</item>
+        <item>Cb Major Scale</item>
+        <item>Chromatic Scale</item>
+    </string-array>
+    <string-array name="minorScales">
+        <item>A Minor Scale</item>
+        <item>E Minor Scale</item>
+        <item>B Minor Scale</item>
+        <item>F# Minor Scale</item>
+        <item>C# Minor Scale</item>
+        <item>G# Minor Scale</item>
+        <item>D# Minor Scale</item>
+        <item>A# Minor Scale</item>
+        <item>D Minor Scale</item>
+        <item>G Minor Scale</item>
+        <item>C Minor Scale</item>
+        <item>F Minor Scale</item>
+        <item>Bb Minor Scale</item>
+        <item>Eb Minor Scale</item>
+        <item>Ab Minor Scale</item>
+        <item>Chromatic Scale</item>
+    </string-array>
+    <string-array name="majorArpeggios">
+        <item>C Major Arpeggio</item>
+        <item>G Major Arpeggio</item>
+        <item>D Major Arpeggio</item>
+        <item>A Major Arpeggio</item>
+        <item>E Major Arpeggio</item>
+        <item>B Major Arpeggio</item>
+        <item>F# Major Arpeggio</item>
+        <item>C# Major Arpeggio</item>
+        <item>F Major Arpeggio</item>
+        <item>Bb Major Arpeggio</item>
+        <item>Eb Major Arpeggio</item>
+        <item>Ab Major Arpeggio</item>
+        <item>Db Major Arpeggio</item>
+        <item>Gb Major Arpeggio</item>
+        <item>Cb Major Arpeggio</item>
+    </string-array>
+    <string-array name="minorArpeggios">
+        <item>A Minor Arpeggio</item>
+        <item>E Minor Arpeggio</item>
+        <item>B Minor Arpeggio</item>
+        <item>F# Minor Arpeggio</item>
+        <item>C# Minor Arpeggio</item>
+        <item>G# Minor Arpeggio</item>
+        <item>D# Minor Arpeggio</item>
+        <item>A# Minor Arpeggio</item>
+        <item>D Minor Arpeggio</item>
+        <item>G Minor Arpeggio</item>
+        <item>C Minor Arpeggio</item>
+        <item>F Minor Arpeggio</item>
+        <item>Bb Minor Arpeggio</item>
+        <item>Eb Minor Arpeggio</item>
+        <item>Ab Minor Arpeggio</item>
+    </string-array>
+    <string-array name="instruments">
+        <item>Violin</item>
+        <item>Viola</item>
+        <item>Cello</item>
+        <item>Double Bass</item>
+    </string-array>
+    <string-array name="scalesArpeggios">
+        <item>Scales</item>
+        <item>Arpeggios</item>
+    </string-array>
+    <string-array name="majorMinor">
+        <item>Major</item>
+        <item>Minor</item>
+    </string-array>
+    <string-array name="notations">
+        <item name="scientific">Scientific pitch notation</item>
+        <item name="sol">Solfège</item>
+    </string-array>
+</resources>

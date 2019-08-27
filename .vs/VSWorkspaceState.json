@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app\\src",
+    "\\app\\src\\androidTest\\java",
+    "\\app\\src\\androidTest\\java\\com",
+    "\\app\\src\\androidTest\\java\\com\\github",
+    "\\app\\src\\androidTest\\java\\com\\github\\cythara",
+    "\\app\\src\\main\\java",
+    "\\app\\src\\main\\java\\com",
+    "\\app\\src\\main\\java\\com\\github",
+    "\\app\\src\\main\\java\\com\\github\\cythara",
+    "\\app\\src\\test"
+  ],
+  "SelectedNode": "\\.gitignore",
+  "PreviewInSolutionExplorer": false
+}
