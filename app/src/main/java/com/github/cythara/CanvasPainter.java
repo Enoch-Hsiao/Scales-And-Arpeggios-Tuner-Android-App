@@ -127,7 +127,7 @@ class CanvasPainter {
         int size = (int) (textPaint.getTextSize() / 1.25);
         paint.setTextSize(size);
         if(frequency < 10)
-            canvas.drawText(frequency + " Hz",x - 124, y, paint);
+            canvas.drawText(frequency + " Hz",x - 123, y, paint);
         else if(frequency< 100)
             canvas.drawText(frequency + " Hz",x - 150, y, paint);
         else if(frequency < 1000)
