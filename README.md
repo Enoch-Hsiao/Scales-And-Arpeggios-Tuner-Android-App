@@ -5,9 +5,9 @@ Based on https://github.com/gstraube/cythara
 * Provides a "test" that checks how accurate the user played a scale/arpeggio (Implemented for Violin, Viola, Cello, Bass)
 ### Photos
 * Missed Notes Screen <br/>
-<img src= "https://i.ibb.co/5Fkdc4s/Tuner3.jpg" width="50%">
+<img src = "https://i.ibb.co/5Fkdc4s/Tuner3.jpg" width = "50%">
 * No Missed Notes Screen <br/>
-![Screen3](https://i.ibb.co/5Fkdc4s/Tuner3.jpg)
+<img src = "https://i.ibb.co/TWSLBvW/Tuner4.jpg" width = "50%">
 * Light Mode Screen <br/>
-![Screen4](https://i.ibb.co/1bHBV56/Tuner5.jpg)
+<img src = "https://i.ibb.co/1bHBV56/Tuner5.jpg" width = "50%">
 
